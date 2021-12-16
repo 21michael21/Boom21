@@ -217,22 +217,41 @@ public static class Storages
 
  <p align="center">
 <img src="https://user-images.githubusercontent.com/91207739/146260057-38095887-4818-4edc-b2d7-cb4e5b1e2056.png"></p>
-<p align="center">Рисунок 5 -Проверка работы методов CRUD</p>
+<p align="center">Рисунок 5 - Проверка работы методов CRUD</p>
 
  Create позволяет добавлять новые данные в таблицу(см. Рисунок 6).
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/91207739/146317688-5d9cc320-9c15-4a61-93bc-2a4a8d44f292.png"></p>
-<p align="center">Рисунок 6 -Проверка работы метода Create </p>
+<p align="center">Рисунок 6 - Проверка работы метода Create </p>
 
- Вносим изменения в контроллер "Агент по недвижимости"(см.Рисунок 7).
+ Вносим изменения в контроллер "Агент по недвижимости" и смотрим результат изменений(см.Рисунок 7).
 
  <p align="center">
-<img src="https://user-images.githubusercontent.com/91207739/146318063-281eac1b-d626-47b0-bfce-6abba97aaa59.png"></p>
-<p align="center">Рисунок 7 -Проверка работы метода Create </p>
+<img src="https://user-images.githubusercontent.com/91207739/146324455-49ff909b-0bf4-4cf0-bad6-18d966f8e0d0.png"></p>
+<p align="center">Рисунок 7 - Результат изменений метода Create </p>
+ 
+ 
+ 2. Метод чтения Read похожа на функцию поиска, посклольку может найти необходимые записи и считывать их значения (см. рисунок 8).
+ 
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/91207739/146325665-86663fa1-c7e6-4f04-b5df-e928e773e273.png"></p>
+<p align="center">Рисунок 8 - Метод Read </p>
+ 
+ Считываем данные с уже созданного контроллера "Агента по недвижимости"(см. Рисунок 9)
+ 
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/91207739/146325229-6d86cd92-c4a0-434f-9fcf-521b18d03de9.png"></p>
+<p align="center">Рисунок  - 9 Результат поиска метода Read </p>
+ 
+ 3. Update и спользуется для изменения существующих записей в базе данных, обновляем записи (см. рисунок 10). 
+ 
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/91207739/146325229-6d86cd92-c4a0-434f-9fcf-521b18d03de9.png"></p>
+<p align="center">Рисунок  - 10 метод Update </p>
  
 
-<a name="Checkingandtestingthesystem"/>
+ <a name="Checkingandtestingthesystem"/>
 
 
 # Список литературы
