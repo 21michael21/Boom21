@@ -242,14 +242,40 @@ public static class Storages
  
  <p align="center">
 <img src="https://user-images.githubusercontent.com/91207739/146325229-6d86cd92-c4a0-434f-9fcf-521b18d03de9.png"></p>
-<p align="center">Рисунок  - 9 Результат поиска метода Read </p>
+<p align="center">Рисунок 9 -  Результат поиска метода Read </p>
  
  3. Update и спользуется для изменения существующих записей в базе данных, обновляем записи (см. рисунок 10). 
  
  <p align="center">
-<img src="https://user-images.githubusercontent.com/91207739/146325229-6d86cd92-c4a0-434f-9fcf-521b18d03de9.png"></p>
-<p align="center">Рисунок  - 10 метод Update </p>
+<img src="https://user-images.githubusercontent.com/91207739/146327955-5a5a66c5-622b-414a-8e5e-1e64a22e004a.png"></p>
+<p align="center">Рисунок 10 - метод Update </p>
  
+ После выполнения операции сервер выдаёт новую информацию(см. рисунок 11).
+
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/91207739/146328342-c6fa9670-e969-4c05-851e-0183d73a1c32.png"></p>
+<p align="center">Рисунок 11 - метод Update </p>
+ 
+ Метод Read проверка вышеуказанной операции. После срабатывания сервер выдает новую информацию об контрллере(см. рисунок 12)
+ 
+  <p align="center">
+<img src="https://user-images.githubusercontent.com/91207739/146328342-c6fa9670-e969-4c05-851e-0183d73a1c32.png"></p>
+<p align="center">Рисунок 12 - метод Read совершает проверку</p>
+ 
+ 
+ 4. Метод Delete - используется для удаления записи по Id. Этот метод моежт, false только или true(см. рисунок 13).
+ 
+  <p align="center">
+<img src="https://user-images.githubusercontent.com/91207739/146328342-c6fa9670-e969-4c05-851e-0183d73a1c32.png"></p>
+<p align="center">Рисунок  - 13 метод Delete</p>
+ 
+ После выполнения операции ответ сервера true, значит все прошло успешно(см. рисунок 14).
+ 
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/91207739/146328342-c6fa9670-e969-4c05-851e-0183d73a1c32.png"></p>
+<p align="center">Рисунок 14 - Результат метода Delete</p>
+
+
 
  <a name="Checkingandtestingthesystem"/>
 
@@ -266,4 +292,10 @@ public static class Storages
 <a name="sourse_1.2">
 
 [2] Источник данных сравнительного анализа и описание различных систем недвижимости 2021 года - Режим доступа:https://otzyvmarketing.ru/articles/12-luchshih-crm-dlya-agentstva-nedvizhimosti/, свободный(дата обращения 11.12.2021) 
+
+ [3] Что такое DFD 2017 - Режим доступа:https://habr.com/ru/company/trinion/blog/340064/, свободный (дата обращения 13.12.2021)
+
+[4] Что такое ER - диаграмма и как ее создать 2021, Режим доступа:https://www.lucidchart.com/pages/ru/erd-диаграмма, свободный (дата обращения 14.12.2021)
+
+[5] Что такое CRUD операции 2021 - Режим доступа:https://bestprogrammer.ru/izuchenie/chto-takoe-crud-operatsii, свободный (дата обращения 14.12.2021)
 
