@@ -270,7 +270,7 @@ public static class Storages
  После выполнения операции ответ сервера true, значит все прошло успешно(см. рисунок 14).
  
  <p align="center">
-<img src="https://user-images.githubusercontent.com/91207739/146328342-c6fa9670-e969-4c05-851e-0183d73a1c32.png"></p>
+<img src="https://user-images.githubusercontent.com/91207739/146330869-35437120-c437-4794-955e-c5672a8a5ce8.png"></p>
 <p align="center">Рисунок 14 - Результат метода Delete</p>
 
 
