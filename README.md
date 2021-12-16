@@ -222,10 +222,15 @@ public static class Storages
 - Create позволяет добавлять новые данные в таблицу
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/91207739/146260057-38095887-4818-4edc-b2d7-cb4e5b1e2056.png"></p>
+<img src="https://user-images.githubusercontent.com/91207739/146317688-5d9cc320-9c15-4a61-93bc-2a4a8d44f292.png"></p>
 <p align="center">Рисунок 6 -Проверка работы метода Create </p>
 
+ - Изменение.
 
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/91207739/146318063-281eac1b-d626-47b0-bfce-6abba97aaa59.png"></p>
+<p align="center">Рисунок 7 -Проверка работы метода Create </p>
+ 
 
 <a name="Checkingandtestingthesystem"/>
 
