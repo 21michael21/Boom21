@@ -21,13 +21,13 @@ namespace Employment.Controllers
         }
 
         [HttpGet("Read")]
-        public EstateАgent Read(int Id)
+        public MonetaryAccounting Read(int Id)
         {
             return Storages.MonetaryAccountingStorage.Read(Id);
         }
 
         [HttpPut("Update")]
-        public EstateАgent Update(MonetaryAccounting monetaryAccounting)
+        public MonetaryAccounting Update(MonetaryAccounting monetaryAccounting)
         {
             return Storages.MonetaryAccountingStorage.Update(monetaryAccounting);
         }

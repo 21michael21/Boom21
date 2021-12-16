@@ -21,13 +21,13 @@ namespace Employment.Controllers
         }
 
         [HttpGet("Read")]
-        public EstateАgent Read(int Id)
+        public RealEstateObject Read(int Id)
         {
             return Storages.RealEstateObjectStorage.Read(Id);
         }
 
         [HttpPut("Update")]
-        public EstateАgent Update(RealEstateObject realEstateObject)
+        public RealEstateObject Update(RealEstateObject realEstateObject)
         {
             return Storages.RealEstateObjectStorage.Update(realEstateObject);
         }

@@ -15,13 +15,13 @@ namespace Employment.Controllers
         }
 
         [HttpGet("Read")]
-        public EstateАgent Read(int Id)
+        public Transaction Read(int Id)
         {
             return Storages.TransactionStorage.Read(Id);
         }
 
         [HttpPut("Update")]
-        public EstateАgent Update(Transaction transaction)
+        public Transaction Update(Transaction transaction)
         {
             return Storages.TransactionStorage.Update(transaction);
         }

@@ -16,6 +16,8 @@ namespace Employment.Controllers
     {
 
 
+
+
         [HttpPut("Create")]
         public bool Create(LogOfRequestsFor logOfRequestsFor)
         {
@@ -23,13 +25,13 @@ namespace Employment.Controllers
         }
 
         [HttpGet("Read")]
-        public EstateАgent Read(int Id)
+        public LogOfRequestsFor Read(int Id)
         {
             return Storages.LogOfRequestsForStorage.Read(Id);
         }
 
         [HttpPut("Update")]
-        public EstateАgent Update(LogOfRequestsFor logOfRequestsFor)
+        public LogOfRequestsFor Update(LogOfRequestsFor logOfRequestsFor)
         {
             return Storages.LogOfRequestsForStorage.Update(logOfRequestsFor);
         }
