@@ -13,8 +13,6 @@
 
 [4 Проверка и тестирование системы](#Checkingandtestingthesystem)
 
-[Заключение](#Conclusion)
-
 [Список литературы](#Listofliterature)
 
 <a name="introduction"/> 
