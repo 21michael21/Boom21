@@ -14,7 +14,6 @@ namespace Employment.Controllers
     [Route("/AgencyAccount")]
     public class AgencyAccountController : ControllerBase
     {
-       
 
         [HttpPut("Create")]
         public bool Create(AgencyAccount agencyAccount)
